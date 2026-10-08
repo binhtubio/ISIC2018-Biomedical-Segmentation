@@ -1,0 +1,14 @@
+# Bỏ qua thư mục chứa ảnh và mặt nạ
+data/
+Test_Images/
+Test_Masks/
+
+# Bỏ qua file trọng số mô hình AI (do quá nặng)
+*.pth
+*.pt
+
+# Bỏ qua các file môi trường và cache của Python
+__pycache__/
+.venv/
+venv/
+.env
