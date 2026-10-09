@@ -2,7 +2,7 @@ from dataset import ISIC_Task2_Dataset
 
 # Trỏ đúng tên thư mục bạn vừa giải nén
 image_dir = 'data/images'
-mask_dir = 'data/ISIC2018_Task2_Training_GroundTruth_v3'
+mask_dir = 'data/Task2_Masks_Train'
 
 try:
     dataset = ISIC_Task2_Dataset(image_dir, mask_dir)

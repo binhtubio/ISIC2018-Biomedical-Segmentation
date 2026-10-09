@@ -12,7 +12,7 @@ def train_task2():
     # 1. Nạp phễu dữ liệu (Sẽ trỏ về Google Drive khi lên Colab)
     dataset = ISIC_Task2_Dataset(
         image_dir='data/images', 
-        mask_dir='data/ISIC2018_Task2_Training_GroundTruth_v3'
+        mask_dir='data/Task2_Masks_Train'
     )
     
     train_size = int(0.8 * len(dataset))
